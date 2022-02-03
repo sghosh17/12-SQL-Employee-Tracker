@@ -1,23 +1,27 @@
+-- Creates database employee_tracker --
 DROP DATABASE IF EXISTS employee_tracker;
 CREATE DATABASE employee_tracker;
-
+-- Use of database --
 USE employee_tracker;
 
+-- Creates Deapartment table inside employee_tracker database --
 CREATE TABLE department (
-  id INT NOT NULL PRIMARY KEY,
-  name VARCHAR(30));
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  dept_name VARCHAR(30));
 
+-- Creates Role table inside employee_tracker databas --
   CREATE TABLE role (
-  id INT not null PRIMARY KEY,
-  title VARCHAR(30),
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(30), 
   salary INT,
   department_id INT,
   FOREIGN KEY (department_id)
   REFERENCES department(id)
   ON DELETE SET NULL );
 
+-- Creates Employee table inside employee_tracker databas --
   CREATE TABLE employee (
-  id INT not null PRIMARY KEY,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(30),
   last_name VARCHAR(30),
   role_id INT, 

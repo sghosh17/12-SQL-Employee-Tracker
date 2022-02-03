@@ -1,6 +1,6 @@
 # **12 SQL: Employee Tracker**
 
-https://github.com/sghosh17/12-mysql-employee-tracker
+https://github.com/sghosh17/12-SQL-Employee-Tracker
 
 ## Description
 

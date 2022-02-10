@@ -37,7 +37,7 @@ In order to use this application:
 - Make sure server.js is connected to SQL before continuing.
 - Run through prompts as required.
 
-Click [here](https://watch.screencastify.com/v/qPc5JJ0nPLFe4HXS8TRI) to see the walkthrough video.
+Click [here](https://drive.google.com/file/d/1e6gBDy1jQUg4vZzT0lehu-_GWCSXAWXp/view?usp=sharing) to see the walkthrough video.
 
 ## License
 
